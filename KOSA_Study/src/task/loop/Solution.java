@@ -169,7 +169,7 @@ public class Solution {
 				}
 				System.out.print(value + " ");
 			}
-			System.out.println(); // 한 행을 출력한 후 줄바꿈
+			System.out.println();
 		}
 	}
 

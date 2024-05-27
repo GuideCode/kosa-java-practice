@@ -1,4 +1,4 @@
-package review.chapter02;
+package review;
 
 import java.util.Arrays;
 import java.util.HashSet;
