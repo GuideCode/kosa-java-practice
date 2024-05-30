@@ -1,18 +1,16 @@
 package task.baseball;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 // BaseBallGame
 public class Main {
 
 	public static void main(String[] args) {
 		// init answer
-		ArrayList<Integer> answer = new ArrayList<Integer>();
-		answer.add(1);
-		answer.add(2);
-		answer.add(3);
-		// setAnswer();
+		ArrayList<Integer> answer = setAnswer();
 		// System.out.println(Arrays.toString(answer.toArray()));
+		System.out.println(Arrays.toString(answer.toArray()));
 		int count = 1;
 		while (true) {
 			Game game = new Game();
