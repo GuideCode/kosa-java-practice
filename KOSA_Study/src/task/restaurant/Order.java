@@ -4,6 +4,7 @@ public class Order {
 
 	private MenuItem[] menuList;
 	private int count;
+	private int paySum;
 
 	public Order() {
 		this.menuList = new MenuItem[10];
@@ -63,14 +64,28 @@ public class Order {
 				if (i == count) {
 					menuList[i] = null;
 					break;
-				}else {
+				} else {
 					for (int j = i; j < count - 1; j++) {
 						menuList[j] = menuList[j + 1];
 					}
 				}
-				
 			}
 		}
-		System.out.println(selected+" 주문 삭제 완료");
+		System.out.println(selected + " 주문 삭제 완료");
+	}
+
+	public void payMenuItem() {
+		System.out.print("결제할 주문(요리) 이름: ");
+		String selected = DataInput.sc.nextLine();
+
+		for (int i = 0; i < count; i++) {
+			if(menuList[i].getName().equals(selected)) {
+				paySum += menuList[i].getPrice();
+			}
+		}
+	}
+
+	public void paySumMenuItem() {
+
 	}
 }

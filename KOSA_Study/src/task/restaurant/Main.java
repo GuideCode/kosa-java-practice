@@ -20,12 +20,14 @@ public class Main {
 				order.deleteMenuItem();
 				break;
 			case "3":
-				
+				order.payMenuItem();
 				break;
 			case "4":
-				
+				order.paySumMenuItem();
 				break;
-
+			case "5":
+				System.out.println("종료");
+				return;
 			default:
 				break;
 			}
