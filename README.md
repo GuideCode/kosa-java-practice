@@ -1,12 +1,12 @@
-# KCC_Study
+# kosa-java-practice
 
 Using Java in 2024  
-📌: KCC 정보통신 교육 4기 - 일일 미션 & 과제 풀이 모음
+📌: KOSA 전자정부 표준 프레임워크 기반 공공프로젝트 개발 전문가 양성과정 - 일일 미션 & 과제 풀이 모음
 
 [![Last Commit](https://img.shields.io/github/last-commit/221B0825/KCC_Study)](https://github.com/221B0825/KCC_Study/commits/main)
 
 ## 🚀 Introduction
-KCC 정보통신 교육 4기 과정 중 진행한 일일 미션과 과제 풀이 코드를 정리한 저장소입니다. 게시판, 도서관 관리, 전화번호부, 쇼핑몰, 레스토랑 주문 시스템 등 다양한 주제의 미니 프로젝트를 통해 객체지향 설계와 컬렉션 활용을 연습한 기록입니다.
+KOSA 전자정부 표준 프레임워크 기반 공공프로젝트 개발 전문가 양성과정 중 진행한 일일 미션과 과제 풀이 코드를 정리한 저장소입니다. 게시판, 도서관 관리, 전화번호부, 쇼핑몰, 레스토랑 주문 시스템 등 다양한 주제의 미니 프로젝트를 통해 객체지향 설계와 컬렉션 활용을 연습한 기록입니다.
 
 ---
 
@@ -50,8 +50,8 @@ KCC 정보통신 교육 4기 과정 중 진행한 일일 미션과 과제 풀이
 ## 📂 Folder Structure
 
 ```plaintext
-KCC_Study/
-└── KCC_Study/
+kosa-java-practice/
+└── KOSA_Study/
     └── src/
         ├── board/            # 게시판 CRUD 프로그램
         ├── data/             # List, Map, Stack 컬렉션 미션
